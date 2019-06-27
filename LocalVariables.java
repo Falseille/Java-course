@@ -1,4 +1,3 @@
-package com.LocalVariables;
 
 public class LocalVariables {
 
