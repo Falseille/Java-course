@@ -50,5 +50,11 @@ public class indexSubstring {
 
         System.out.println(region.substring(2,2));
         // Outcome is nothing. It will start at r and stops at r. There will be nothing printed.
+
+        System.out.println(region.substring(5,3));
+        // This will be an exception because the index will start at 5 and there is requested for index 3.
+
+        System.out.println(region.substring(4, 9));
+        // This will be an exception because there is no ninth position in this case.
     }
 }
